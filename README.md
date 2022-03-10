@@ -1,3 +1,2 @@
 # csapatmunka
-#hello
-# henlo
+# Dóczi Adrián szolgálatra jelentkezik.
