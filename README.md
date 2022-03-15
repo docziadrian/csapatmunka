@@ -1,5 +1,5 @@
 # csapatmunka
 # Dóczi Adrián szolgálatra jelentkezik.
 # Kalman vok
-# Ács Benjámin kész
+# Ács Benjámin kész.
 #legjobb csapat vagyunk
