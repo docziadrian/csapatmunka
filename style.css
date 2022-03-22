@@ -1,5 +1,5 @@
 .container {
-    width: 700px;
+    width: 1000px;
     height: 700px;
     margin: auto;
     margin-top: 100px;
@@ -12,6 +12,10 @@
     width: 150px;
     border-radius: 10px;
     margin-top: 0%;
+}
+
+.circle{
+    margin-left: -1.1cm;
 }
 
 .menu {
@@ -32,7 +36,7 @@ ul, a {
 }
 li {
     list-style-type :none; 
-    line-height: 30px;
+    line-height: 62px;
     border-bottom:  rgb(19, 18, 18) 2px solid;
      
 }
