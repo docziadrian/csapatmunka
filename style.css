@@ -1,22 +1,24 @@
 .container {
     width: 1000px;
-    height: 700px;
+    height: 630px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 0px;
     background-color: rgb(255, 255, 255);
-    border: 1px solid green;
+    border: 5px solid green;
     border-radius: 5px;
+    border-radius: 2.5%;
 }
 
-.img {
-    width: 150px;
-    border-radius: 10px;
-    margin-top: 0%;
+.EZENVAGY{
+    color: rgb(33, 117, 212);
 }
 
 .circle{
     margin-left: -1.1cm;
 }
+
+.circle2{width:50%;height:0;font-size:200px;color:#fff;text-align:center;font-family:Arial;line-height:0;padding:25% 0;border-radius:50%;background:rgb(65, 139, 90)}
+
 
 .menu {
     float: left;
@@ -36,8 +38,9 @@ ul, a {
 }
 li {
     list-style-type :none; 
-    line-height: 62px;
+    line-height: 44.5px;
     border-bottom:  rgb(19, 18, 18) 2px solid;
+    
      
 }
 ul li:last-child {
