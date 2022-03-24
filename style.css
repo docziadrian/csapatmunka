@@ -17,6 +17,10 @@
     margin-left: -1.1cm;
 }
 
+h1,h2{
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
 .circle2{width:50%;height:0;font-size:200px;color:#fff;text-align:center;font-family:Arial;line-height:0;padding:25% 0;border-radius:50%;background:rgb(65, 139, 90)}
 
 
@@ -60,4 +64,20 @@ ul :hover {
     background-color:  rgb(223, 126, 16);
     color: black;
     border-radius: 5px;
+}
+
+#leghasonlobb_szamok_felirat{
+    margin-top: 1cm;
+    margin-left: 10cm;
+    color:black;
+    font-size: 40px;
+    text-align: left;
+}
+
+#leghoszabb_sorozatok_szamsorokban{
+
+    margin-left: 10cm;
+    color:black;
+    font-size: 30px;
+    text-align: left;
 }
