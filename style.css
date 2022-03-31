@@ -1,12 +1,17 @@
-.container {
-    width: 1000px;
-    height: 630px;
-    margin: auto;
-    margin-top: 0px;
-    background-color: rgb(255, 255, 255);
-    border: 5px solid black;
-    border-radius: 5px;
-    border-radius: 2.5%;
+#leghasonlobb_szamok_felirat{
+    margin-top: 1cm;
+    margin-left: 10cm;
+    color:black;
+    font-size: 40px;
+    text-align: left;
+}
+
+#leghoszabb_sorozatok_szamsorokban{
+
+    margin-left: 10cm;
+    color:black;
+    font-size: 30px;
+    text-align: left;
 }
 
 .EZENVAGY{
@@ -26,58 +31,4 @@ h1,h2{
 
 .menu {
     float: left;
-}
-
-h1 {
-    text-align: center;
-}
-ul {
-    border: rgb(19, 18, 18) 2px solid;
-    border-radius: 15px;
-}
-ul, a {
-    background-color: rgb(61, 55, 55);
-    color: aliceblue;
-    text-decoration: none;
-}
-li {
-    list-style-type :none; 
-    line-height: 44.5px;
-    border-bottom:  rgb(19, 18, 18) 2px solid;
-    
-     
-}
-ul li:last-child {
-    border-bottom: none
-  }
-  
-.tartalom> img {
-    width: 50px;
-}
-
-.tartalom {
-    text-align: center;
-}
-
-ul :hover {
-    border-bottom:  rgb(19, 18, 18) 3px solid;
-    background-color:  rgb(223, 126, 16);
-    color: black;
-    border-radius: 5px;
-}
-
-#leghasonlobb_szamok_felirat{
-    margin-top: 1cm;
-    margin-left: 10cm;
-    color:black;
-    font-size: 40px;
-    text-align: left;
-}
-
-#leghoszabb_sorozatok_szamsorokban{
-
-    margin-left: 10cm;
-    color:black;
-    font-size: 30px;
-    text-align: left;
 }
