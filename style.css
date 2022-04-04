@@ -1,49 +1,89 @@
-#leghasonlobb_szamok_felirat{
-    margin-top: 1cm;
-    margin-left: 10cm;
-    color:black;
-    font-size: 40px;
-    text-align: left;
-}
-
-#leghoszabb_sorozatok_szamsorokban{
-
-    margin-left: 10cm;
-    color:black;
-    font-size: 30px;
-    text-align: left;
-}
-
-#kezdoszoveg{
-    font-size: 0.8cm;
-    margin-top: 1.5cm;
-    margin-left: 9cm;
-}
-
-#kep{
-    margin-top: -0.2cm;
-    margin-left: -0.2cm;
-}
-
-.EZENVAGY{
-    color: rgb(33, 117, 212);
-}
-
-.circle{
-    margin-left: -1.1cm;
-}
-
-h1,h2{
-    font-family:  Arial, Helvetica, sans-serif;
-}
-
-.circle2{width:50%;height:0;font-size:200px;color:#fff;text-align:center;font-family:Arial;line-height:0;padding:25% 0;border-radius:50%;background:rgb(65, 139, 90)}
-
-
+/* The side navigation menu */
 .menu {
-    float: left;
+    margin: 0;
+    padding: 0;
+    width: 320px;
+    background-color: #424242;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    margin-top: -0.10501cm;
+    margin-left: -0.199cm;
+  }
+  
+  /* Sidebar links */
+  .menu a {
+    display: block;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  /* Active/current link */
+  .menu a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Links on mouse-over */
+  .menu a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 100px;
+  }
+  
+
+
+
+
+
+
+
+hr{
+    font-size: 0.1cm;
+}
+
+.kep{
+    margin-top: -2cm;
 }
 
 body{
+    background-attachment: inherit;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.tartalom{
+    font-size: 26px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 0.7cm;
+    margin-left: 12cm;
+    position: absolute;
+    line-height: 1.2cm;
+}
+
+.golyok{
+    margin-top: -2.2cm;
+    margin-left: 11.5cm;
+    height: 1cm;
+}
+
+.tartalom2{
+    font-size: 26px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 3cm;
+    margin-left: 12cm;
+    position: absolute;
+    line-height: 1.2cm;
+}
+
+.golyok2{
+    margin-top: 5.5cm;
+    margin-left: 11.5cm;
+    height: 1cm;
 }
