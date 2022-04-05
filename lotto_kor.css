@@ -1,0 +1,10 @@
+.circle{
+    width: 15%;
+    height: 15%;
+    -webkit-border-radius: 2cm;
+    -moz-border-radius: 50px;
+    color: #fff;
+    background-color: rgb(65, 139, 90);
+    border-radius: 2cm;
+
+}
