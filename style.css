@@ -2,12 +2,12 @@
 .menu {
     margin: 0;
     padding: 0;
-    width: 320px;
+    width: 24.70703%;
     background-color: #424242;
     position: fixed;
     height: 100%;
     overflow: auto;
-    margin-top: -0.10501cm;
+    margin-top: -0.106cm;
     margin-left: -0.199cm;
   }
   
@@ -50,7 +50,7 @@ hr{
 }
 
 .kep{
-    margin-top: -2cm;
+    margin-top: -10%;
 }
 
 body{
@@ -87,3 +87,5 @@ body{
     margin-left: 11.5cm;
     height: 1cm;
 }
+
+
