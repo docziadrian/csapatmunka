@@ -68,9 +68,20 @@ body{
 }
 
 .golyok{
-    margin-top: -2.2cm;
-    margin-left: 11.5cm;
-    height: 1cm;
+    margin-top: -5.5cm;
+    margin-left: 8.5cm;
+}
+
+.golyoElhelyezkedes{
+  margin-left: -7cm;
+
+}
+
+
+.also_szoveg{
+  margin-top: -6%;
+  margin-left: 34%;
+  margin-bottom: 9%;
 }
 
 .tartalom2{
@@ -87,5 +98,3 @@ body{
     margin-left: 11.5cm;
     height: 1cm;
 }
-
-
