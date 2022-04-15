@@ -5,12 +5,15 @@
     width: 24.70703%;
     background-color: #424242;
     position: fixed;
-    height: 100%;
-    overflow: auto;
-    margin-top: -0.106cm;
+    height: 150%;
+    overflow: hidden;
+    margin-top: -2.6%;
     margin-left: -0.199cm;
   }
-  
+
+.links{
+    margin-top: -7%;
+  }
   /* Sidebar links */
   .menu a {
     display: block;
@@ -57,44 +60,44 @@ hr{
 body{
     background-attachment: inherit;
     font-family: Arial, Helvetica, sans-serif;
-    overflow: hidden;
+    overflow: hidden; /*Ezt át lehet állítani a másik css fileokban, ha szükség van rá!!*/
 }
 
-.tartalom{
-    font-size: 26px;
-    font-family:Arial, Helvetica, sans-serif;
-    margin-left: 12cm;
-    position: absolute;
-    line-height: 1.2cm;
-}
 
 .leghasonlobb_tartalom{
   font-size: 26px;
   font-family:Arial, Helvetica, sans-serif;
   margin-left: 12cm;
-  position: absolute;
+  position: relative;
   line-height: 0.8cm;
 }
 
 
 #evszam{
-  margin-top: 15%;
+  margin-top: 7%;
 }
 
 
+.tartalom{
+  font-size: 26px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-left: 12cm;
+  position: relative;
+  line-height: 1.2cm;
+}
 
 .legsz_tartalom{
   font-size: 26px;
   font-family:Arial, Helvetica, sans-serif;
   margin-left: 12cm;
-  position: absolute;
+  position: relative;
   line-height: 320%;
 }
 
 .szoveg{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 150%;
-  margin-top: -12.5cm;
+  margin-top: -36%;
   margin-left: 12cm;
 }
 
@@ -104,18 +107,28 @@ body{
 }
 
 .golyok{
-    margin-top: -18.5%;
+    margin-top: -10.5%;
     margin-left: 8.5cm;
 }
 
+.also_golyok{
+  margin-top: -19%;
+  margin-left: 8.5cm;
+}
+
 .legsz_golyok{
-  margin-top: -22%;
+  margin-top: -37%;
   margin-left: 18cm;
 }
 
 .legh_golyok{
-  margin-top: -14%;
+  margin-top: -10%;
   margin-left: 15.5cm;
+}
+
+.legh_also_golyok_igazitas{
+  margin-top: -19%;
+  margin-left: 8.55cm;
 }
 
 .legsz_golyok2{
@@ -164,7 +177,7 @@ body{
   font-size: 26px;
   font-family:Arial, Helvetica, sans-serif;
   margin-left: 12cm;
-  position: absolute;
+  position: relative;
   line-height: 0.8cm;
 }
 
