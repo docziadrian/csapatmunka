@@ -1,0 +1,214 @@
+/* The side navigation menu */
+.menu {
+    margin: 0;
+    padding: 0;
+    width: 24.70703%;
+    background-color: #424242;
+    position: fixed;
+    height: 150%;
+    overflow: hidden;
+    margin-top: -2.6%;
+    margin-left: -0.199cm;
+  }
+
+.links{
+    margin-top: -7%;
+  }
+  /* Sidebar links */
+  .menu a {
+    display: block;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  /* Active/current link */
+  .menu a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Links on mouse-over */
+  .menu a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 100px;
+  }
+  
+
+
+
+
+
+
+
+hr{
+    font-size: 0.1cm;
+}
+
+.kep{
+    margin-top: -10%;
+    overflow: hidden;
+}
+
+body{
+    background-attachment: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: scroll; /*Ezt át lehet állítani a másik css fileokban, ha szükség van rá!!*/
+}
+
+
+.leghasonlobb_tartalom{
+  font-size: 26px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-left: 12cm;
+  position: relative;
+  line-height: 0.8cm;
+}
+
+
+#evszam{
+  margin-top: 7%;
+}
+
+
+.tartalom{
+  font-size: 26px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-left: 12cm;
+  position: relative;
+  line-height: 1.2cm;
+}
+
+.legsz_tartalom{
+  font-size: 26px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-left: 12cm;
+  position: relative;
+  line-height: 320%;
+}
+
+.szoveg{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150%;
+  margin-top: -36%;
+  margin-left: 12cm;
+}
+
+#lejjebb{
+  padding-bottom: 0%;
+  visibility: hidden;
+}
+
+.golyok{
+    margin-top: -10.5%;
+    margin-left: 8.5cm;
+}
+
+.also_golyok{
+  margin-top: -19%;
+  margin-left: 8.5cm;
+}
+
+.legsz_golyok{
+  margin-top: -37%;
+  margin-left: 18cm;
+}
+
+.legh_golyok{
+  margin-top: -10%;
+  margin-left: 15.5cm;
+}
+
+.legh_also_golyok_igazitas{
+  margin-top: -19%;
+  margin-left: 8.55cm;
+}
+
+.legsz_golyok2{
+  margin-top: -19.5%;
+  margin-left: 18cm;
+}
+
+.legsz_golyok3{
+  margin-top: -19.5%;
+  margin-left: 18cm;
+}
+
+.darabszam{
+  font-size: 250%;
+  line-height: 2cm;
+  margin-top: -37.5%;
+  margin-left: 18cm;
+}
+
+.golyoElhelyezkedes{
+  margin-left: -7cm;
+
+}
+
+
+.legh_golyoElhelyezkedes{
+  margin-left: -7cm;
+
+}
+
+
+.also_szoveg{
+  margin-top: -6%;
+  margin-left: 34%;
+  margin-bottom: 11%;
+}
+
+
+.legh_also_szoveg{
+  margin-top: -9.5%;
+  margin-left: 34%;
+  margin-bottom: 11%;
+}
+
+.leghoszabb_tartalom{
+  font-size: 26px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-left: 12cm;
+  position: relative;
+  line-height: 0.8cm;
+}
+
+.leghoszabb_also_szoveg{
+  margin-top: -5%;
+  margin-left: 34%;
+  margin-bottom: 11%;
+}
+
+.leghoszabb_felso_szoveg{
+  margin-top: -25%;
+  margin-left: 34%;
+  margin-bottom: 17%;
+}
+
+.leghoszabb_golyok{
+  margin-top: -14.5%;
+  margin-left: 8.5cm;
+}
+
+
+.tartalom2{
+    font-size: 26px;
+    margin-top: -0.5%;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 12cm;
+    position: absolute;
+    line-height: 1.2cm;
+}
+
+.golyok2{
+    margin-left: 11.5cm;
+    height: 1cm;
+}
