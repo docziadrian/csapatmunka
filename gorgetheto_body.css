@@ -181,20 +181,23 @@ body{
   line-height: 0.8cm;
 }
 
+#leghoszabb_javitas{
+  margin-top: -2.1%;
+}
+
 .leghoszabb_also_szoveg{
-  margin-top: -5%;
+  margin-top: 0%;
   margin-left: 34%;
   margin-bottom: 11%;
 }
 
 .leghoszabb_felso_szoveg{
-  margin-top: -25%;
+  margin-top: 10%;
   margin-left: 34%;
   margin-bottom: 17%;
 }
 
 .leghoszabb_golyok{
-  margin-top: -14.5%;
   margin-left: 8.5cm;
 }
 

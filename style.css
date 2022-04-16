@@ -94,6 +94,21 @@ body{
   line-height: 320%;
 }
 
+.legsz_tartalom2{
+  font-size: 26px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-left: 12cm;
+  position: relative;
+  line-height: 320%;
+}
+
+.lista{
+  font-size: 150%;
+  padding-top: -8%;
+  line-height: 350%;
+  padding-left: 33%;
+}
+
 .szoveg{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 150%;
@@ -102,7 +117,6 @@ body{
 }
 
 #lejjebb{
-  padding-bottom: 0%;
   visibility: hidden;
 }
 
@@ -117,7 +131,7 @@ body{
 }
 
 .legsz_golyok{
-  margin-top: -37%;
+  margin-top: -37.5%;
   margin-left: 18cm;
 }
 
@@ -194,7 +208,7 @@ body{
 }
 
 .leghoszabb_golyok{
-  margin-top: -14.5%;
+  margin-top: -20.5%;
   margin-left: 8.5cm;
 }
 
