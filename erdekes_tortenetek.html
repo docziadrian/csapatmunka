@@ -5,30 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lottó Projekt</title>
-    <link rel="stylesheet" href="style.css">
+    <script src="kinyithatoGomb.js"></script>
+    <link rel="stylesheet" href="gorgetheto_body.css">
     <link rel="stylesheet" href="lotto_kor.css">
+    <link rel="stylesheet" href="kinyithatoGomb.css"
 </head>
 <body>
-    <div class="tartalom">
-    <h1>Korábbi sorsolások</h1>
-    <h3>Az előző heti nyerőszámok</h3>
-    </div>
-<div>
-    
-    <img style="margin-left: -0.56%; margin-top: -0.56%;"
-     id="kep"
-    width = "25%"
-    height= "300"
-    src="https://raw.githubusercontent.com/green-fox-academy/http-info-syllabus/master/assets/hatter.jpg">
-    <span class="circle"></span>
-    <a href="index.html"> <p class="lottoszoveg"><b>Lottó</b></p> </a>
-    
-    
-</div>
 
 
 <!-- Bal oldali menü -->
 <div class="menu">
+   
+   <img
+   width = "100%"
+   height= "30%"
+   src="https://raw.githubusercontent.com/green-fox-academy/http-info-syllabus/master/assets/hatter.jpg">
+   <span class="circle"></span>
+   <a href="index.html"> <p class="lottoszoveg"><b>Lottó</b></p> </a>
+
+
+   <div class="links">
     <a href="index.html">Korábbi sorsolások</a>
     <hr size="0.1cm">
     <a href="leggyakoribb_szamok.html">Leggyakoribb számok</a>
@@ -42,48 +38,109 @@
     <a href="grafikonok.html">Grafikonok</a>
     <hr size="0.1cm">
     <a class="active" href="erdekes_tortenetek.html">Érdekes törtétenetek</a>
+   </div>
   </div>
 
-<div class="golyok">
-    <svg
-    width="20%"
-    height="5cm"
-    viewBox="0 0 210 297"
-    version="1.1"
-    id="svg5"
-    xmlns="http://www.w3.org/2000/svg"
-    xmlns:svg="http://www.w3.org/2000/svg">
-    <defs
-        id="defs2" />
-    <g
-        id="layer1">
-        <circle
-        style="fill:#00ff00;fill-rule:evenodd;stroke: width 2cm;" 
-        id="path31"
-        cx="-107.1439"
-        cy="119.00739"
-        r="79.590927"
-        transform="scale(-1,1)" />
-        <circle
-        style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.172535"
-        id="path1074"
-        cx="107.1439"
-        cy="119.00739"
-        r="44.250946" />
-        <text x="50%" y="39%" text-anchor="middle" stroke-width="1px" dy=".3em">8</text>
-    </g>
-    </svg>
-</div>
-<div class="tartalom2">
-    <h3> A múlt heti nyerőszámok</h3>
-    </div>
-<div>
-<div class="golyok2">
-    <img height="120" src="./képek/circle_noun_001_02738.jpg" alt="Első golyó">
-    <img height="120" src="./képek/circle_noun_001_02738.jpg" alt="Első golyó">
-    <img height="120" src="./képek/circle_noun_001_02738.jpg" alt="Első golyó">
-    <img height="120" src="./képek/circle_noun_001_02738.jpg" alt="Első golyó">
-</div>
+  <div class="tartalom">
+   <h1>Érdekes történetek</h1>
+   </div>
+
+<details class="igazitas0">
+    <summary onclick="myFunction()" class="summary">
+    A vak szerencse
+      <span class="icon">👇</span>
+    </summary>
+    <p class="lotto_erdekessegek">
+        1995-ben Timothy O’Brien megölte magát, hiszen ráébredt, hogy a számai helyesek voltak, de nem váltotta be a szelvényt. Amikor ráébredt, hogy három milliót veszített, akkor egyszerűen főbe lőtte magát. A legborzalmasabb a történetben, hogy elnézte a számokat, és csak 50 ezret nyert volna.
+Billie Bob Harrell
+    </p>
+</details>
+
+<span>
+<details class="igazitas">
+    <summary class="summary">
+    William Post:<br> A zsugori emberek
+      <span class="icon">👇</span>
+    </summary>
+    <p class="lotto_erdekessegek">
+        A férfi 16 millió dollárt nyert 1988-ban a Pennsylvania állambeli lottón, de a nyeremény csupán borzalmakat hozott. A volt barátnője megpróbálta beperelni, egyik testvére pedig megpróbálta meggyilkolni, hogy övé legyen a pénz. Ráadásul a családtagok folyamatosan pénzt kértek tőle, így végül egy milliós adóssággal végezte be a történetet.
+Timothy O’Brien
+    </p>
+</details>
+</span>
+
+<details id="myDIV" class="igazitas2">
+    <summary class="summary">
+        Nincs rosszabb, <br> mint nyerni a lottón...
+      <span class="icon">👇</span>
+    </summary>
+    <p class="lotto_erdekessegek">
+        
+    A legtöbb lottónyertes néhány év alatt csődbe megy, pedig a hétmilliárdos nyeremények sem ritkák külföldön. A könnyen jött pénz hamar megváltoztatja az embert, ha nem tudja, mihez akar kezdeni vele. A költekezési vággyal és a kapzsi rokonok hadával is fel kell venni a harcot. Van, aki meg tudja valósítani az álmait, mások korábbi munkahelyükön végzik, megint mások még rosszabbul járnak.
+    </p>
+</details>
+
+<details class="igazitas3">
+    <summary class="summary">
+        Nyerési esélyek:<br>
+        Aki mer, az nyer?
+      <span class="icon">👇</span>
+    </summary>
+    <p class="lotto_erdekessegek">
+        Mára a legnépszerűbb szerencsejátékká nőtte ki magát, pedig elég kicsi az esély a főnyereményre: körülbelül annyi, mint hogy négy véletlenül összetalálkozó embernek ugyanakkor van a születésnapja. Bár egyesek gúnyosan az „idióták adójának” nevezik, tagadhatatlan, hogy a szelvények ára nem csak a nyertesek zsebét vastagítja, jelentős része jó célokat szolgál.
+    </p>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details class="igazitas2">
+    <summary class="summary">
+        Az iskolai tanár nyeri a pénzt,<br>hogy örömet szerezzen a gyermekeknek
+      <span class="icon">👇</span>
+    </summary>
+    <p class="lotto_erdekessegek">
+        Les Robins középiskolai tanár volt, aki gyakran úgy gondolta, hogy szégyen, hogy a gyerekek ma nem nőttek fel olyan tevékenységek végzésében, amelyeket ő maga gyerekként élvezett: a táborozáshoz, az úszáshoz, a sportoláshoz és a szabadban való felfedezéshez. Így amikor elnyerte a 111 millió dolláros Powerball-jackpotot, Robins úgy döntött, hogy az alapokat felhasználja egy saját tábor létrehozásához.
+    </p>
+</details>
+
+
+<details class="igazitas">
+    <summary class="summary">
+    A hajléktalan férfi, akit nem <br>részegített meg a több száz millió forint
+      <span class="icon">👇</span>
+    </summary>
+    <p class="lotto_erdekessegek">
+        2013 szeptemberében Andraschek László egy skandinávlottó-szelvénnyel hirtelen 626 millió forintot tudhatott magáénak. Míg a legtöbb szerencsés olvasó valószínűleg nem tudja elképzelni, milyen hajléktalanként élni, hirtelen több száz millió forintot még ritkább hirtelen elnyerni. László testvéreinek, egészen pontosan öt testvérének is juttatott az összegből és azt is eldöntötte, hogy nem akar luxuskörülmények között élni.
+    </p>
+</details>
+
+
+<details class="igazitas4">
+    <summary class="summary">
+    foxtrott személyes története
+      <span class="icon">👇</span>
+    </summary>
+    <p class="lotto_erdekessegek">
+        <sub>"</sub>Pénzt örököltünk a férjem nagynénjétől. A többi unoka-örökös is ugyanannyit kapott, mint a férjem. A húga, akivel évek óta nem beszéltünk, egy e-mailt küldött a férjemnek és a bátyjának, amiben elkérte tőlük az örökségüket, mert az ő személyi edző munkája nem volt elég neki az életmódjának a finanszírozásához.<sup>"</sup>
+    </p>
+</details>
+
+
+
+
 
 
   <!-- Adatok -->

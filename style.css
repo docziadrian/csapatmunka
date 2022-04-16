@@ -226,3 +226,13 @@ body{
     margin-left: 11.5cm;
     height: 1cm;
 }
+
+
+.jobb_menu{
+  position: fixed;
+  padding-left: -5cm;
+  width:50%;
+  float:left;
+  height:100px;
+  background:blue;
+}
