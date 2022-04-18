@@ -1,3 +1,3 @@
 function iranyit(){
-    window.location = 'csapatmunka/index.html';
+    window.location = '/csapatmunka/index.html';
 }
