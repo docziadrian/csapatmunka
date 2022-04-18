@@ -1,46 +1,4 @@
 /* The side navigation menu */
-.menu {
-    margin: 0;
-    padding: 0;
-    width: 24.70703%;
-    background-color: #424242;
-    position: fixed;
-    height: 150%;
-    overflow: hidden;
-    margin-top: -2.6%;
-    margin-left: -0.199cm;
-  }
-
-.links{
-    margin-top: -7%;
-  }
-  /* Sidebar links */
-  .menu a {
-    display: block;
-    color: black;
-    padding: 10px;
-    text-decoration: none;
-  }
-  
-  /* Active/current link */
-  .menu a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
-  
-  /* Links on mouse-over */
-  .menu a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-  }
-  
-  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
-  div.content {
-    margin-left: 200px;
-    padding: 1px 16px;
-    height: 100px;
-  }
-  
 
 
 
@@ -48,9 +6,6 @@
 
 
 
-hr{
-    font-size: 0.1cm;
-}
 
 .kep{
     margin-top: -10%;
@@ -100,6 +55,7 @@ body{
   margin-left: 12cm;
   position: relative;
   line-height: 320%;
+  margin-top: -1.5%;
 }
 
 .lista{

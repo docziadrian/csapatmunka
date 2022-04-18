@@ -1,91 +1,82 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lottó Projekt</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="lotto_kor.css">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="wrapper.css">
+   <link rel="stylesheet" href="bootstrap.css">
+   <link rel="stylesheet" href="gorgetheto_body.css">
 </head>
+
+
 <body>
-    <div class="tartalom">
-    <h1>Korábbi sorsolások</h1>
-    <h3>Az előző heti nyerőszámok</h3>
-    </div>
-<div>
-    
-    <img style="margin-left: -0.56%; margin-top: -0.56%;"
-     id="kep"
-    width = "25%"
-    height= "300"
-    src="https://raw.githubusercontent.com/green-fox-academy/http-info-syllabus/master/assets/hatter.jpg">
-    <span class="circle"></span>
-    <a href="index.html"> <p class="lottoszoveg"><b>Lottó</b></p> </a>
-    
-    
-</div>
+   <div class="wrapper">
+      <!-- Menü - NE ÁLLÍTSD! -->
+      
+      <nav class="sidebar">
+          <div class="sidebar-header">
+             
+            <img
+            width = "100%"
+            height= "150%"
+            src="https://raw.githubusercontent.com/green-fox-academy/http-info-syllabus/master/assets/hatter.jpg">
+            <span class="circle">                <script src="atiranyitas.js"></script>
+              <h1 onclick="iranyit()" style="cursor:cell;" class="text-center">Lottó</h1>
+            </span>
+
+            
+            
+          </div>
+          
+   
+          <ul class="list-unstyled components">
+            <div class="links">
+               <a href="index.html">Korábbi sorsolások</a>
+               <hr size="0.1cm">
+               <a href="leggyakoribb_szamok.html">Leggyakoribb számok</a>
+               <hr size="0.1cm">
+               <a href="leghasonlobb_szamok.html">Leghasonlóbb számok</a>
+               <hr size="0.1cm">
+               <a href="leghoszabb_sorozatok_szamsorokban.html">Leghoszabb sorozatok számsorokban</a>
+               <hr size="0.1cm">
+               <a href="legkisebb_osszegu_szamsorok.html">Legkisebb összegű számsorok</a>
+               <hr size="0.1cm">
+               <a class="active" href="grafikonok.html">Grafikonok</a>
+               <hr size="0.1cm">
+               <a href="erdekes_tortenetek.html">Érdekes törtétenetek</a>
+              </div>
+             </div>
+   
+      </nav>
+      <!-- az oldal beállításai - NE ÁLLÍTSD! -->
+      <div id="content">
+   
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container-fluid">
+   
+                  <button type="button" id="sidebarCollapse" class="btn btn-info">
+                      <i class="fas fa-align-left"></i>
+                      <span>Menü kikapcsolás</span>
+                  </button>
+              </div>
+          </nav>
+      </div>
+   </div>
 
 
-<!-- Bal oldali menü -->
-<div class="menu">
-    <a href="index.html">Korábbi sorsolások</a>
-    <hr size="0.1cm">
-    <a href="leggyakoribb_szamok.html">Leggyakoribb számok</a>
-    <hr size="0.1cm">
-    <a href="leghasonlobb_szamok.html">Leghasonlóbb számok</a>
-    <hr size="0.1cm">
-    <a href="leghoszabb_sorozatok_szamsorokban.html">Leghoszabb sorozatok számsorokban</a>
-    <hr size="0.1cm">
-    <a href="legkisebb_osszegu_szamsorok.html">Legkisebb összegű számsorok</a>
-    <hr size="0.1cm">
-    <a class="active" href="grafikonok.html">Grafikonok</a>
-    <hr size="0.1cm">
-    <a href="erdekes_tortenetek.html">Érdekes törtétenetek</a>
-  </div>
 
-<div class="golyok">
-    <svg
-    width="20%"
-    height="5cm"
-    viewBox="0 0 210 297"
-    version="1.1"
-    id="svg5"
-    xmlns="http://www.w3.org/2000/svg"
-    xmlns:svg="http://www.w3.org/2000/svg">
-    <defs
-        id="defs2" />
-    <g
-        id="layer1">
-        <circle
-        style="fill:#00ff00;fill-rule:evenodd;stroke: width 2cm;" 
-        id="path31"
-        cx="-107.1439"
-        cy="119.00739"
-        r="79.590927"
-        transform="scale(-1,1)" />
-        <circle
-        style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.172535"
-        id="path1074"
-        cx="107.1439"
-        cy="119.00739"
-        r="44.250946" />
-        <text x="50%" y="39%" text-anchor="middle" stroke-width="1px" dy=".3em">8</text>
-    </g>
-    </svg>
-</div>
-<div class="tartalom2">
-    <h3> A múlt heti nyerőszámok</h3>
-    </div>
-<div>
-<div class="golyok2">
-    <img height="120" src="./képek/circle_noun_001_02738.jpg" alt="Első golyó">
-    <img height="120" src="./képek/circle_noun_001_02738.jpg" alt="Első golyó">
-    <img height="120" src="./képek/circle_noun_001_02738.jpg" alt="Első golyó">
-    <img height="120" src="./képek/circle_noun_001_02738.jpg" alt="Első golyó">
-</div>
+      <!--BOOTSTRAP scriptek animációi -->
+       <!-- jQuery CDN - Slim version (=without AJAX) -->
+       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       <!-- Popper.JS -->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+       <!-- Bootstrap JS -->
+       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+       <!-- jQuery Custom Scroller CDN -->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
 
-
-  <!-- Adatok -->
-</body>
-</html>
+  <div class="tartalom">
+   <h1>Grafikonok</h1>
+   </div>

@@ -1,0 +1,52 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+  }
+  
+  .sidebar {
+    width: 345px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #424242;
+    color: #fff;
+    transition: all 0.3s;
+  }
+  
+  .sidebar-header{
+    background-color: red;
+    height: 188px;
+  }
+  
+  .links{
+    margin-top: 40.9%;
+  }
+  /* Sidebar links */
+  
+  /*# sourceMappingURL=bootstrap.css.map */
+  
+  /* Sidebar links */
+  .sidebar a {
+    display: block;
+    color: black;
+    margin-left: -12.89%;
+    padding: 2%;
+    margin-top: -10%;
+    line-height: 170%;
+  
+    text-decoration: none;
+  }
+  
+  /* Active/current link */
+  .sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Links on mouse-over */
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }

@@ -1,41 +1,81 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lottó Projekt</title>
-    <link rel="stylesheet" href="gorgetheto_body.css">
-    <link rel="stylesheet" href="lotto_kor.css">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="wrapper.css">
+   <link rel="stylesheet" href="bootstrap.css">
+   <link rel="stylesheet" href="gorgetheto_body.css"
 </head>
+
+
 <body>
-    
-   <div class="menu">
+   <div class="wrapper">
+      <!-- Menü - NE ÁLLÍTSD! -->
+      
+      <nav class="sidebar">
+          <div class="sidebar-header">
+             
+            <img
+            width = "100%"
+            height= "150%"
+            src="https://raw.githubusercontent.com/green-fox-academy/http-info-syllabus/master/assets/hatter.jpg">
+            <span class="circle">                <script src="atiranyitas.js"></script>
+               <h1 onclick="iranyit()" style="cursor:cell;" class="text-center">Lottó</h1>
+            </span>
+
+            
+            
+          </div>
+          
    
-      <img
-      width = "100%"
-      height= "30%"
-      src="https://raw.githubusercontent.com/green-fox-academy/http-info-syllabus/master/assets/hatter.jpg">
-      <span class="circle"></span>
-      <a href="index.html"> <p class="lottoszoveg"><b>Lottó</b></p> </a>
+          <ul class="list-unstyled components">
+            <div class="links">
+               <a href="index.html">Korábbi sorsolások</a>
+               <hr size="0.1cm">
+               <a href="leggyakoribb_szamok.html">Leggyakoribb számok</a>
+               <hr size="0.1cm">
+               <a href="leghasonlobb_szamok.html">Leghasonlóbb számok</a>
+               <hr size="0.1cm">
+               <a class="active" href="leghoszabb_sorozatok_szamsorokban.html">Leghoszabb sorozatok számsorokban</a>
+               <hr size="0.1cm">
+               <a href="legkisebb_osszegu_szamsorok.html">Legkisebb összegű számsorok</a>
+               <hr size="0.1cm">
+               <a href="grafikonok.html">Grafikonok</a>
+               <hr size="0.1cm">
+               <a href="erdekes_tortenetek.html">Érdekes törtétenetek</a>
+              </div>
+             </div>
    
+      </nav>
+      <!-- az oldal beállításai - NE ÁLLÍTSD! -->
+      <div id="content">
    
-      <div class="links">
-       <a href="index.html">Korábbi sorsolások</a>
-       <hr size="0.1cm">
-       <a href="leggyakoribb_szamok.html">Leggyakoribb számok</a>
-       <hr size="0.1cm">
-       <a href="leghasonlobb_szamok.html">Leghasonlóbb számok</a>
-       <hr size="0.1cm">
-       <a class="active" href="leghoszabb_sorozatok_szamsorokban.html">Leghoszabb sorozatok számsorokban</a>
-       <hr size="0.1cm">
-       <a href="legkisebb_osszegu_szamsorok.html">Legkisebb összegű számsorok</a>
-       <hr size="0.1cm">
-       <a href="grafikonok.html">Grafikonok</a>
-       <hr size="0.1cm">
-       <a href="erdekes_tortenetek.html">Érdekes törtétenetek</a>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container-fluid">
+   
+                  <button type="button" id="sidebarCollapse" class="btn btn-info">
+                      <i class="fas fa-align-left"></i>
+                      <span>Menü kikapcsolás</span>
+                  </button>
+              </div>
+          </nav>
       </div>
-     </div>
+   </div>
+
+
+
+      <!--BOOTSTRAP scriptek animációi -->
+       <!-- jQuery CDN - Slim version (=without AJAX) -->
+       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       <!-- Popper.JS -->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+       <!-- Bootstrap JS -->
+       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+       <!-- jQuery Custom Scroller CDN -->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
 
      <div class="tartalom">
       <h1>A 3 Leghoszabb sorozatot</h1>
@@ -227,7 +267,7 @@
            d="m 65.087109,142.13459 0.379621,5.11431 4.497988,-3.59668 z"
            id="path3557-7"
            transform="matrix(-1,0,0,1,153.35399,-18.123296)" />
-           <text x="49%" y="51%" text-anchor="middle" stroke-width="1px" dy=".3em">8</text>
+           <text x="49%" y="51%" text-anchor="middle" stroke-width="1px" dy=".3em" id="lottoszam">8</text>
       </g>
     </svg>
    
@@ -415,7 +455,7 @@
         d="m 65.087109,142.13459 0.379621,5.11431 4.497988,-3.59668 z"
         id="path3557-7"
         transform="matrix(-1,0,0,1,153.35399,-18.123296)" />
-        <text x="49%" y="51%" text-anchor="middle" stroke-width="1px" dy=".3em">18</text>
+        <text x="49%" y="51%" text-anchor="middle" stroke-width="1px" dy=".3em" id="lottoszam">18</text>
    </g>
    </svg>
    
@@ -604,7 +644,7 @@
        d="m 65.087109,142.13459 0.379621,5.11431 4.497988,-3.59668 z"
        id="path3557-7"
        transform="matrix(-1,0,0,1,153.35399,-18.123296)" />
-       <text x="49%" y="51%" text-anchor="middle" stroke-width="1px" dy=".3em">28</text>
+       <text x="49%" y="51%" text-anchor="middle" stroke-width="1px" dy=".3em" id="lottoszam">28</text>
    </g>
    </svg>
    <!--HARMADIK GOLYÓ VÉGE-->
@@ -792,7 +832,7 @@
        d="m 65.087109,142.13459 0.379621,5.11431 4.497988,-3.59668 z"
        id="path3557-7"
        transform="matrix(-1,0,0,1,153.35399,-18.123296)" />
-       <text x="49%" y="51%" text-anchor="middle" stroke-width="1px" dy=".3em">38</text>
+       <text x="49%" y="51%" text-anchor="middle" stroke-width="1px" dy=".3em" id="lottoszam">38</text>
    </g>
    </svg>
    <!--NEGYEDIK GOLYÓ VÉGE-->
@@ -980,7 +1020,7 @@
        d="m 65.087109,142.13459 0.379621,5.11431 4.497988,-3.59668 z"
        id="path3557-7"
        transform="matrix(-1,0,0,1,153.35399,-18.123296)" />
-       <text x="49%" y="51%" text-anchor="middle" stroke-width="1px" dy=".3em">58</text>
+       <text x="49%" y="51%" text-anchor="middle" stroke-width="1px" dy=".3em" id="lottoszam">58</text>
    </g>
    </svg>
    </div>
@@ -1189,7 +1229,7 @@
           d="m 65.087109,142.13459 0.379621,5.11431 4.497988,-3.59668 z"
           id="path3557-7"
           transform="matrix(-1,0,0,1,153.35399,-18.123296)" />
-          <text x="49%" y="51%" text-anchor="middle" stroke-width="1px" dy=".3em">8</text>
+          <text x="49%" y="51%" text-anchor="middle" stroke-width="1px" dy=".3em" id="lottoszam">8</text>
      </g>
    </svg>
    
@@ -1377,7 +1417,7 @@
        d="m 65.087109,142.13459 0.379621,5.11431 4.497988,-3.59668 z"
        id="path3557-7"
        transform="matrix(-1,0,0,1,153.35399,-18.123296)" />
-       <text x="49%" y="51%" text-anchor="middle" stroke-width="1px" dy=".3em">18</text>
+       <text x="49%" y="51%" text-anchor="middle" stroke-width="1px" dy=".3em" id="lottoszam">18</text>
    </g>
    </svg>
    
@@ -1566,7 +1606,7 @@
       d="m 65.087109,142.13459 0.379621,5.11431 4.497988,-3.59668 z"
       id="path3557-7"
       transform="matrix(-1,0,0,1,153.35399,-18.123296)" />
-      <text x="49%" y="51%" text-anchor="middle" stroke-width="1px" dy=".3em">28</text>
+      <text x="49%" y="51%" text-anchor="middle" stroke-width="1px" dy=".3em" id="lottoszam">28</text>
    </g>
    </svg>
    <!--HARMADIK GOLYÓ VÉGE-->
@@ -1754,7 +1794,7 @@
       d="m 65.087109,142.13459 0.379621,5.11431 4.497988,-3.59668 z"
       id="path3557-7"
       transform="matrix(-1,0,0,1,153.35399,-18.123296)" />
-      <text x="49%" y="51%" text-anchor="middle" stroke-width="1px" dy=".3em">38</text>
+      <text x="49%" y="51%" text-anchor="middle" stroke-width="1px" dy=".3em" id="lottoszam">38</text>
    </g>
    </svg>
    <!--NEGYEDIK GOLYÓ VÉGE-->
@@ -1942,7 +1982,7 @@
       d="m 65.087109,142.13459 0.379621,5.11431 4.497988,-3.59668 z"
       id="path3557-7"
       transform="matrix(-1,0,0,1,153.35399,-18.123296)" />
-      <text x="49%" y="51%" text-anchor="middle" stroke-width="1px" dy=".3em">58</text>
+      <text x="49%" y="51%" text-anchor="middle" stroke-width="1px" dy=".3em" id="lottoszam">58</text>
    </g>
    </svg>
    </div>
@@ -2168,7 +2208,7 @@
           d="m 65.087109,142.13459 0.379621,5.11431 4.497988,-3.59668 z"
           id="path3557-7"
           transform="matrix(-1,0,0,1,153.35399,-18.123296)" />
-          <text x="49%" y="51%" text-anchor="middle" stroke-width="1px" dy=".3em">8</text>
+          <text x="49%" y="51%" text-anchor="middle" stroke-width="1px" dy=".3em" id="lottoszam">8</text>
      </g>
    </svg>
    
@@ -2356,7 +2396,7 @@
        d="m 65.087109,142.13459 0.379621,5.11431 4.497988,-3.59668 z"
        id="path3557-7"
        transform="matrix(-1,0,0,1,153.35399,-18.123296)" />
-       <text x="49%" y="51%" text-anchor="middle" stroke-width="1px" dy=".3em">18</text>
+       <text x="49%" y="51%" text-anchor="middle" stroke-width="1px" dy=".3em" id="lottoszam">18</text>
    </g>
    </svg>
    
@@ -2545,7 +2585,7 @@
       d="m 65.087109,142.13459 0.379621,5.11431 4.497988,-3.59668 z"
       id="path3557-7"
       transform="matrix(-1,0,0,1,153.35399,-18.123296)" />
-      <text x="49%" y="51%" text-anchor="middle" stroke-width="1px" dy=".3em">28</text>
+      <text x="49%" y="51%" text-anchor="middle" stroke-width="1px" dy=".3em" id="lottoszam">28</text>
    </g>
    </svg>
    <!--HARMADIK GOLYÓ VÉGE-->
@@ -2733,7 +2773,7 @@
       d="m 65.087109,142.13459 0.379621,5.11431 4.497988,-3.59668 z"
       id="path3557-7"
       transform="matrix(-1,0,0,1,153.35399,-18.123296)" />
-      <text x="49%" y="51%" text-anchor="middle" stroke-width="1px" dy=".3em">38</text>
+      <text x="49%" y="51%" text-anchor="middle" stroke-width="1px" dy=".3em" id="lottoszam">38</text>
    </g>
    </svg>
    <!--NEGYEDIK GOLYÓ VÉGE-->
@@ -2921,7 +2961,7 @@
       d="m 65.087109,142.13459 0.379621,5.11431 4.497988,-3.59668 z"
       id="path3557-7"
       transform="matrix(-1,0,0,1,153.35399,-18.123296)" />
-      <text x="49%" y="51%" text-anchor="middle" stroke-width="1px" dy=".3em">58</text>
+      <text x="49%" y="51%" text-anchor="middle" stroke-width="1px" dy=".3em" id="lottoszam">58</text>
    </g>
    </svg>
    </div>

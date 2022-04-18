@@ -1,0 +1,12 @@
+Legtöbb húzás: =MAX(S2:S100)
+Legkisebb összeg: =MIN(Q2:Q3000)
+Számok összege: =SUM(L2:P2)
+Összes húzások: =COUNTIF(L2:P3300;"1")
+-----
+Legalább 3 hasonló számsor képlet:
+=IF(AND(P2=O2+1;O2=N2+1;OR(O2=N2+1;AND(N2=M2+1;OR(N2=M2+1;AND(M2=L2+1)))));"TRUE";"FALSE")
+-----
+Legalább 4 hasonló számsor képlet:
+=IF(AND(L404=M404-1;M404=N404-1;N404=O404-1;OR(L404=M404+1;AND(M404=N404+1;N404=O404+1;
+OR(P404=O404+1;AND(O404=N404+1;N404=M404+1;OR(P404=O404-1;AND(O404=N404-1;N404=M404-1)))))));"TRUE";"-")
+-----
