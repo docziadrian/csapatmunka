@@ -1,0 +1,107 @@
+
+details {
+    user-select: none;
+    background-color: green;
+    border-style:groove;
+    margin-left: 35%;
+    width: 25%;
+    border-color: gray;  }
+  
+  details>summary span.icon {
+    width: 24px;
+    height: 24px;
+    transition: all 0.3s;
+    margin-left: auto;
+    margin-bottom: auto;
+  }
+  
+  details[open] summary span.icon {
+    transform: rotate(180deg);
+  }
+  
+  summary {
+    display: flex;
+    cursor: pointer;
+    border-top-style: double;
+  }
+  
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+
+.lotto_erdekessegek{
+    border-top-style:groove;
+    border-color: black;
+    border-radius: 2%;
+}
+
+.igazitas{
+    margin-top: 1%;
+    margin-left: 60%;
+}
+
+
+.igazitas2{
+    margin-top: 1%;
+    margin-left: 65%;
+}
+
+.igazitas3{
+    margin-top: 1%;
+    margin-left: 75%;
+}
+
+.igazitas4{
+    margin-top: 1%;
+    margin-left: 45%;
+}
+
+
+.igazitasbal{
+    margin-top: -7.8%;
+    margin-left: 30%;
+}
+
+.igazitasbal2{
+    margin-top: -7.8%;
+    margin-left: 25%;
+}
+
+.igazitasbal3{
+    margin-top: -7.8%;
+    margin-left: 20%;
+}
+
+
+.igazitasfel{
+    margin-top: -7.8%;
+    margin-left: 25%;
+}
+
+.igazitasfel2{
+    margin-top: -7.8%;
+    margin-left: 30%;
+}
+
+
+.igazitas0{
+    margin-top: 3%;
+    margin-left: 35%;
+}
+
+#center{
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+
+.tartalom_kep{
+    font-size: 26px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 36.5%;
+    position: relative;
+    line-height: 1.2cm;
+  }

@@ -8,6 +8,8 @@
    <link rel="stylesheet" href="wrapper.css">
    <link rel="stylesheet" href="bootstrap.css">
    <link rel="stylesheet" href="gorgetheto_body.css">
+   <link rel="stylesheet" href="grafikonok.css">
+   <link rel="stylesheet" href="gomb.css"
 </head>
 
 
@@ -77,6 +79,28 @@
        <!-- jQuery Custom Scroller CDN -->
        <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
 
+      <script src="/grafikon.js"></script>
+      <script src="/fullscreen.js"></script>
+
   <div class="tartalom">
    <h1>Grafikonok</h1>
+  </div>
+
+<section>
+  <div class="tartalom_kep">
+    <img id="graf1" class="zoomE" src="/design/értékek.png" style="cursor: zoom-in; visibility: visible; width: 80%; height: 100%; display: none;">
+    <img id="graf2" class="zoomE" src="/design/Grafikon (db-év).png" style="cursor: zoom-in; visibility: visible; width: 80%; height: 100%; display: none;">
    </div>
+</section>
+
+<div class="igazitas0">
+  <button onclick="grafikon1()" class="glow-on-hover" type="button">Ötös találatok értékei</button>
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  <button onclick="grafikon2()" class="glow-on-hover" type="button">Ötös találatok számai</button>
+  &nbsp;
+  &nbsp;
+  &nbsp;
+  <button onclick="grafikon1()" class="glow-on-hover" type="button">Ötös találatok</button>
+</div>
