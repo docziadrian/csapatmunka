@@ -93,4 +93,11 @@ body{
     background-repeat: no-repeat;
     background-position: 105%;
     position: relative;
+    background-size: 73%;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
