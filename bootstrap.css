@@ -116,3 +116,7 @@ body{
   font-family:'Franklin Gothic Medium', 'Bold', 'Arial Narrow', Arial, sans-serif;
   font-size: 110%;
 }
+
+hr{
+  visibility: hidden;
+}

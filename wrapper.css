@@ -1,6 +1,8 @@
 .wrapper {
     display: flex;
     width: 100%;
+    overflow:hidden;
+    
   }
   
   .sidebar {
@@ -8,11 +10,12 @@
     position: fixed;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 1000cm;
     z-index: 999;
     background: #424242;
     color: #fff;
     transition: all 0.3s;
+    overflow:hidden;
   }
   
   .sidebar-header{
@@ -22,6 +25,7 @@
   
   .links{
     margin-top: 40.9%;
+    height: 100cm;
   }
   /* Sidebar links */
   
@@ -40,7 +44,6 @@
     text-decoration: none;
   }
   
-  /* Active/current link */
   .sidebar a.active {
     background-color: #04AA6D;
     color: black;
