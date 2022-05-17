@@ -1,4 +1,6 @@
-
+@-ms-viewport{
+    width: device-width;
+  }
 details {
     user-select: none;
     background-color: green;
@@ -20,6 +22,7 @@ details {
   }
   
   summary {
+      
     display: flex;
     cursor: pointer;
     border-top-style: double;
@@ -91,17 +94,12 @@ details {
 body{
     background-image: url(képek/hatter.png);
     background-repeat: no-repeat;
-    background-position: 105%;
-    position: relative;
+    position:relative;
+    background-position: 400px, center;
+    background-size: 800px;
 }
 
 hr{
     visibility: hidden;
     background-size: 73%;
 }
-
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-  }
