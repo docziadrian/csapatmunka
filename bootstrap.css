@@ -118,5 +118,5 @@ body{
 }
 
 hr{
-  opacity: 0%;
+  visibility: hidden;
 }

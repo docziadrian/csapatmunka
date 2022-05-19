@@ -1,11 +1,519 @@
 /* The side navigation menu */
 
+@-ms-viewport{
+  width: device-width;
+}
+
+@media only screen and (max-width: 700px) {
+  .golyok{
+    padding-top: 200px;
+    padding-bottom: 250px;
+  }
+  .legh_golyok{
+    padding-top: 100px;
+  }
+  .legh_also_golyok_igazitas{
+    padding-top: 200px;
+  }
+  #szovegresz{
+    margin-top: -50px;
+    margin-bottom: 120px;
+  }
+  .tartalom_i{
+    padding-top: 5cm;
+  }
+  body {
+    margin-left: -20%;
+    background-attachment: scroll;
+    overflow: scroll;
+  }
+  .wrapper{
+    display:auto;
+    width: 40%;
+    overflow: scroll;
+  }
+  .sidebar{
+    display:auto;
+    width: 40%;
+    overflow: scroll;
+  }
+
+  .circle{
+    display: none;
+  }
+  img{
+    height: 120%;
+  }
+  #tartalom{
+    padding-top: -300px;
+  }
+}
 
 
+@media screen and (max-width: 800px) {
+  .wrapper{
+    width: 50%;
+    size: 50%;
+  }
+  .sidebar{
+    size: 50%;
+    width: 50%;
+  }
+  .links{
+    margin-top: 120px;
+  }
+  .circle{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .wrapper{
+    width: 30%;
+    size: 30%;
+  }
+  .sidebar{
+    size: 30%;
+    width: 30%;
+  }
+  .links{
+    margin-top: 120px;
+    margin-left: -20px;
+  }
+  .circle{
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .legh_golyok{
+    margin-bottom: 100px;
+  }
+  .golyok{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .tartalom_i{
+    padding-top: 50px;
+  }
+  .links{
+    margin-top: 120px;
+    margin-left: -10px;
+    height: 2cm;
+  }
+  body {
+    margin-left: -4%;
+    background-attachment: scroll;
+    overflow: scroll;
+  }
+  .wrapper{
+    display:auto;
+    width: 32%;
+    overflow: scroll;
+  }
+  .sidebar{
+    display:auto;
+    width: 32%;
+    overflow: scroll;
+    position: absolute;
+    height: 30cm;
+  }
+  .circle{
+    display: none;
+  }
+  svg{
+    width: 23cm;
+    height: 19cm;
+  }
+}
 
 
 hr{
   opacity: 0%;
+}
+
+@media only screen and (max-width: 950px) {
+  .legh_golyok{
+    margin-bottom: 50px;
+  }
+  button{
+    margin-left: 200px;
+  }
+  #graf1, #graf2, #graf3{
+    margin-left: 100px;
+  }
+  .golyok{
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+  h3{
+    margin-left: -50px;
+    font-size: 75%;
+    margin-top: -30px;
+    padding-top: 20px;
+  }
+  h1{
+    margin-left: -50px;
+    font-size: 100%;
+    margin-top: -30px;
+  }
+  #responsive2{
+    padding-bottom: 30px;
+  }
+  .golyoklegh{
+    padding-top: 50px;
+    padding-bottom: 95px;
+  }
+  .golyoklegk{
+    padding-top: 50px;
+  }
+  .also_golyoklegk{
+    padding-bottom: -45px;
+  }
+  .also_golyoklegk{
+    padding-bottom: 0px;
+    padding-top: 60px;
+  }
+  .legh_golyok{
+    padding-top: 100px;
+  }
+  .legh_also_golyok_igazitas{
+    padding-top: 100px;
+  }
+  #szovegresz{
+    margin-top: -50px;
+    margin-bottom: 120px;
+  }
+  body {
+    margin-left: -8%;
+    background-attachment: scroll;
+    overflow: scroll;
+  }
+  .links{
+    margin-top: 50px;
+    margin-left: -19px;
+  }
+  .sidebar a{
+    size: 50%;
+  }
+  .wrapper{
+    display:auto;
+    width: 30%;
+    overflow: scroll;
+  }
+  .sidebar{
+    display:auto;
+    width: 30%;
+    overflow: scroll;
+  }
+  .circle{
+    display: none;
+  }
+  svg{
+    width: 20cm;
+    height: 16cm;
+  }
+  img{
+    height: 120%;
+  }
+  #tartalom{
+    padding-top: -300px;
+  }
+}
+
+
+@media only screen and (max-width: 850px) {
+  .legh_golyok{
+    margin-bottom: 10px;
+  }
+  .golyok{
+    padding-top: 100px;
+    padding-bottom: 150px;
+  }
+  .golyoklegh{
+    padding-top: 120px;
+    padding-bottom: 145px;
+  }
+  .golyoklegk{
+    padding-top: 120px;
+    padding-bottom: 145px;
+  }
+  .also_golyoklegh{
+    padding-bottom: 145px;
+  }
+  .also_golyoklegk{
+    padding-bottom: 145px;
+  }
+  .legh_golyok{
+    padding-top: 100px;
+  }
+  .leghasonlobb_tartalom{
+    padding-left: -40px;
+  }
+  .legh_golyok{
+    padding-top: 100px;
+  }
+  .legh_also_golyok_igazitas{
+    padding-top: 200px;
+  }
+  body {
+    margin-left: -12%;
+    background-attachment: scroll;
+    overflow: scroll;
+  }
+  .wrapper{
+    display:auto;
+    width: 30%;
+    overflow: scroll;
+  }
+  .sidebar{
+    display:auto;
+    width: 30%;
+    overflow: scroll;
+  }
+  .circle{
+    display: none;
+  }
+  svg{
+    width: 18cm;
+    height: 14cm;
+  }
+  img{
+    height: 120%;
+  }
+}
+
+
+@media only screen and (max-width: 750px) {
+  .leghasonlobb_tartalom{
+    margin-bottom: -400px;
+  }
+  .golyok{
+    padding-top: 150px;
+    padding-bottom: 200px;
+  }
+  .golyoklegh{
+    padding-top: 120px;
+    padding-bottom: 195px;
+  }
+  .golyoklegk{
+    padding-top: 100px;
+    padding-bottom: 195px;
+  }
+  .also_golyoklegh{
+    padding-bottom: 195px;
+  }
+  .also_golyoklegk{
+    padding-bottom: 195px;
+  }
+  .legh_golyok{
+    padding-top: 100px;
+  }
+  .leghasonlobb_tartalom{
+    padding-left: -70px;
+  }
+  .legh_golyok{
+    padding-top: 150px;
+  }
+  .legh_also_golyok_igazitas{
+    padding-top: 300px;
+  }
+  .tartalom_i{
+    padding-top: 120px;
+  }
+  body {
+    margin-left: -20%;
+    background-attachment: scroll;
+    overflow: scroll;
+  }
+  .wrapper{
+    display:auto;
+    width: 30%;
+    overflow: scroll;
+  }
+  .sidebar{
+    display:auto;
+    width: 30%;
+    overflow: scroll;
+  }
+  .circle{
+    display: none;
+  }
+  svg{
+    width: 16cm;
+    height: 12cm;
+  }
+  img{
+    height: 120%;
+  }
+}
+
+/*--Ez után +30 % */
+@media only screen and (max-width: 680px) {
+  .leghasonlobb_tartalom{
+    margin-bottom: -400px;
+  }
+  .golyok{
+    padding-top: 150px;
+    padding-bottom: 200px;
+  }
+  .golyoklegh{
+    padding-top: 120px;
+    padding-bottom: 205px;
+  }
+  .golyoklegk{
+    padding-top: 120px;
+    padding-bottom: 205px;
+  }
+  .also_golyoklegh{
+    padding-bottom: 205px;
+  }
+  .also_golyoklegk{
+    padding-bottom: 205px;
+  }
+  .also_golyoklegk{
+    padding-bottom: 205px;
+  }
+  .legh_golyok{
+    padding-top: 120px;
+  }
+  body {
+    margin-left: -30%;
+    background-attachment: scroll;
+  }
+  .wrapper{
+    display:auto;
+    width: 30%;
+  }
+  .sidebar{
+    display:auto;
+    width: 30%;
+  }
+  .circle{
+    display: none;
+  }
+  svg{
+    width: 18cm;
+    height: 12cm;
+  }
+  img{
+    height: 120%;
+  }
+}
+
+
+/*--Ez után +30 % */
+@media only screen and (max-width: 580px) {
+  .leghasonlobb_tartalom{
+    margin-bottom: -500px;
+  }
+  .golyok{
+    padding-top: 180px;
+    padding-bottom: 280px;
+  }
+  .golyoklegh{
+    padding-top: 150px;
+    padding-bottom: 255px;
+  }
+  .golyoklegk{
+    padding-top: 150px;
+    padding-bottom: 255px;
+  }
+  .also_golyoklegh{
+    padding-bottom: 255px;
+  }
+  .also_golyoklegk{
+    padding-bottom: 255px;
+  }
+  .legh_golyok{
+    padding-top: 150px;
+  }
+  .legsz_golyok{
+    padding-left: 40px;
+  }
+  #szovegresz{
+    margin-top: -50px;
+    margin-bottom: 150px;
+  }
+  body {
+    margin-left: -30%;
+    background-attachment: scroll;
+    overflow: scroll;
+  }
+  .wrapper{
+    display:auto;
+    width: 30%;
+    overflow: scroll;
+  }
+  .sidebar{
+    display:auto;
+    width: 30%;
+    overflow: scroll;
+  }
+  .circle{
+    display: none;
+  }
+  svg{
+    width: 12cm;
+    height: 10cm;
+  }
+  img{
+    height: 120%;
+  }
+}
+
+
+/*--Ez után ???? % */
+@media only screen and (max-width: 520px) {
+  .also_golyoklegk{
+    padding-top: 0px;
+  }
+  .golyoklegk{
+    padding-top: 140px;
+  }
+
+  .golyok{
+    padding-top: 180px;
+    padding-bottom: 280px;
+  }
+  .golyoklegh{
+    padding-top: 150px;
+    padding-bottom: 255px;
+  }
+  .also_golyoklegh{
+    padding-bottom: 255px;
+  }
+  .legh_golyok{
+    padding-top: 150px;
+  }
+  body {
+    margin-left: -50%;
+    background-attachment: scroll;
+    overflow: scroll;
+  }
+  .wrapper{
+    display:auto;
+    width: 30%;
+    overflow: scroll;
+    height: auto;
+  }
+  .sidebar{
+    display:auto;
+    width: 30%;
+    overflow:scroll;
+    background-attachment: scroll;
+    height: 50cm;
+  }
+  .circle{
+    display: none;
+  }
+  svg{
+    width: 14.5cm;
+    height: 10cm;
+  }
+  img{
+    height: 120%;
+  }
 }
 
 
@@ -17,7 +525,7 @@ hr{
 body{
     background-attachment: inherit;
     font-family: Arial, Helvetica, sans-serif;
-    overflow: hidden; /*Ezt át lehet állítani a másik css fileokban, ha szükség van rá!!*/
+    overflow: scroll; /*Ezt át lehet állítani a másik css fileokban, ha szükség van rá!!*/
 }
 
 
@@ -79,27 +587,39 @@ body{
 }
 
 .golyok{
-    margin-top: -10.5%;
+    margin-top: -320px;
     margin-left: 8.5cm;
+    margin-bottom: -530px;
+}
+
+.golyok__2{
+  margin-top: -320px;
+  margin-left: 8.5cm;
+  margin-bottom: -530px;
+}
+
+#golyokh{
+  padding-top: 500px;
+  margin-left: 8.5cm;
 }
 
 .also_golyok{
-  margin-top: -19%;
+  margin-top: -150px;
   margin-left: 8.5cm;
 }
 
 .legsz_golyok{
-  margin-top: -37.5%;
-  margin-left: 18cm;
+  margin-top: -250px;
+  margin-left: 270px;
 }
 
 .legh_golyok{
-  margin-top: -10%;
+  margin-top: -300px;
   margin-left: 15.5cm;
 }
 
 .legh_also_golyok_igazitas{
-  margin-top: -19%;
+  margin-top: 5px;
   margin-left: 8.55cm;
 }
 
@@ -140,7 +660,7 @@ body{
 
 
 .legh_also_szoveg{
-  margin-top: -9.5%;
+  margin-top: -250px;
   margin-left: 34%;
   margin-bottom: 11%;
 }
@@ -193,4 +713,51 @@ body{
   float:left;
   height:100px;
   background:blue;
+}
+
+.tartalom_i{
+  margin-left: 450px;
+  margin-top: -220px;
+}
+
+.golyoklegh{
+  margin-top: -310px;
+  margin-left: 8.5cm;
+}
+
+.also_golyoklegh{
+  margin-top: -510px;
+  margin-left: 8.5cm;
+}
+
+.also_golyoklegh2{
+  margin-top: -510px;
+  margin-left: 8.5cm;
+}
+
+.golyoklegk{
+  margin-top: -330px;
+  margin-left: 8.5cm;
+}
+
+.also_golyoklegk{
+  margin-top: -510px;
+  margin-left: 8.5cm;
+}
+
+.also_golyoklegk{
+  margin-top: -510px;
+  margin-left: 8.5cm;
+}
+
+hr{
+  visibility: hidden;
+}
+
+.legh_golyoElhelyezkedes{
+  margin-bottom: -580px;
+}
+
+#sidebarCollapse{
+  visibility: hidden;
 }

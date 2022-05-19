@@ -1,0 +1,79 @@
+@-ms-viewport{
+    width: device-width;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    
+  }
+  
+  
+  
+  @media only screen and (max-width: 1350px) {
+    body{
+        background-size: 70%;
+        background-position: 105%;
+    }
+    summary{
+        font-size: 50%;
+    }
+    .sidebar{}
+  }
+  
+  
+  
+  @media only screen and (max-width: 950px) {
+    body{
+        background-size: 70%;
+        background-position: 105%;
+    }
+    summary{
+        font-size: 50%;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 1920px) {
+    body{background-size: 70%;}
+  }
+  
+  
+  @media only screen and (max-width: 750px) {
+    
+  }
+  
+  /*--Ez után +30 % */
+  @media only screen and (max-width: 680px) {
+    body{
+        background-size: 50%;
+        background-position: 65%;
+    }
+    summary{
+        font-size: 10%;
+    }
+  }
+  
+  
+  /*--Ez után +30 % */
+  @media only screen and (max-width: 580px) {
+    
+  }
+  
+  
+  /*--Ez után ???? % */
+  @media only screen and (max-width: 520px) {
+    .wrapper{
+      display:auto;
+      width: 30%;
+      overflow: scroll;
+      height: auto;
+      padding-left: 500px;
+    }
+    .sidebar{
+      display:auto;
+      width: 30%;
+      overflow:scroll;
+      background-attachment: scroll;
+      height: 50cm;
+      margin-left: 50px;
+    }
+  }

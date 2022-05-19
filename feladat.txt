@@ -1,0 +1,16 @@
+2022-Március-10: Repo létrehozva, klónozás, tervezés.
+2022-Március-15: index.html, style.css megírásának elkezdése -> index.html és style.css létrehozva, menü
+elkészítésének vázlata, design vázlat.
+2022-Március-22: Kör elkészítése a lottó golyókhoz, index.html folytatása, további tervezgetések (golyók, színek, grafok, stb...)
+2022-Március-24: Hibák javítása (horizontal line, fekete keret bug a betöltéskor)
+2022-Április-5: Lottó labdák elkészítésének tervezése, háttér méretének módosítása,
+a körök méretének kiszámítása (SVG fileokhoz)
+2022-Április-15-18: A többi oldal elkészítése, görgethetőség javítása,
+css file-ok importálása, menü elkészítésének folytatása, golyók importálása (számok nélkül, csak a design!), színezés elkezdése,
+átirányítás javascript (az ikonhoz), képletek megírása az Excel táblázatban.
+2022-Április-19-20: Számok kikeresésének folytatása, .SVG fileok elkészítése a golyókhoz, ami még nem reszponzív!
+2022-Április-28: .SVG fileok méretezése, színezése, wrapper elkészítése, ami még nem reszponzív.
+2022-Május-5-10: Grafikonok elkészítése, beszúrása.
+2022-Május-12: Menü reszponzivitása (bootstrap, js) és a vízszintes vonal bugfix a menüben (Mozilla és Edge böngészőben)
+2022-Május-14: SVG, index, háttér, görgethető_body.html, érdekes történetek,
+ikonok, grafikonok reszponzivitásának befejezése.
