@@ -1,16 +1,24 @@
 @-ms-viewport{
     width: device-width;
   }
+
+  body{
+    border-radius: 10%;
+  }
 details {
     user-select: none;
     background-color: green;
     border-style:groove;
     margin-left: 35%;
     width: 25%;
-    border-color: gray;  }
+    border-radius: 17%;
+    border-color: gray;
+  }
   
   details>summary span.icon {
+
     width: 24px;
+    
     height: 24px;
     transition: all 0.3s;
     margin-left: auto;
@@ -18,11 +26,14 @@ details {
   }
   
   details[open] summary span.icon {
+    border-radius: 17%;
     transform: rotate(180deg);
+
   }
   
   summary {
-      
+    display: none;      
+    border-radius: 20%;
     display: flex;
     cursor: pointer;
     border-top-style: double;
@@ -30,7 +41,9 @@ details {
   
   summary::-webkit-details-marker {
     display: none;
-  }
+    
+    border-radius: 17%;  }
+    
 
 
 .lotto_erdekessegek{
@@ -95,11 +108,15 @@ body{
     background-image: url(képek/hatter.png);
     background-repeat: no-repeat;
     position:relative;
-    background-position: 400px, center;
     background-size: 800px;
+    background-position: flex;
+    background-position: 400px, center;
+    background-attachment: fixed;
+    padding-top: 150px;
 }
 
 hr{
+    
     visibility: hidden;
     background-size: 73%;
 }

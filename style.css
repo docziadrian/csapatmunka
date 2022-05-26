@@ -51,6 +51,7 @@
 
 
 @media screen and (max-width: 800px) {
+  
   .wrapper{
     width: 50%;
     size: 50%;
@@ -68,6 +69,7 @@
 }
 
 @media screen and (max-width: 500px) {
+  
   .wrapper{
     width: 30%;
     size: 30%;
@@ -86,15 +88,31 @@
 }
 
 @media only screen and (max-width: 1050px) {
+  .legh_also_golyok_igazitas{
+    margin-bottom: -550px;
+  }
   .legh_golyok{
-    margin-bottom: 100px;
+    margin-bottom: 50;
+  }
+  .also_golyoklegh{
+    margin-top: -50cm;
+  }
+  svg{
+    padding-top: 40px;
+  }
+  .legh_golyok{
+    margin-bottom: 400px;
+    margin-top: 400px;
+    
   }
   .golyok{
     padding-top: 50px;
     padding-bottom: 50px;
+    
   }
   .tartalom_i{
     padding-top: 50px;
+
   }
   .links{
     margin-top: 120px;
@@ -124,6 +142,8 @@
   svg{
     width: 23cm;
     height: 19cm;
+    margin-bottom: 100px;
+    margin-top: -30px;
   }
 }
 
